@@ -1,0 +1,62 @@
+html {
+    font-size: 62.5%;
+}
+
+#image{
+    max-width:70%;
+    height:auto;
+    display:block;
+  }
+ul,h1,h2{
+    font-family: 'Abyssinica SIL', serif;
+}
+  
+  main,section,figure{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+  }
+main{
+    background-color: rgba(187, 177, 153, 0.225);
+}
+
+figure{
+    background-color: white;
+}
+figure *{
+    margin: 0.5em;
+}
+
+h1{
+    font-size: 5rem;
+}
+p{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 4rem;
+}
+ul{
+    font-size: 1.5rem;
+}
+
+h2>a,a:link,a:visited,a:active{
+    text-decoration: none;
+    color: black;
+}
+h2>a:hover{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.619);
+}
+
+.saga{
+    margin: 1em 0em 1em;
+}
+
+
+  /* main>*{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+  } */
